@@ -1,0 +1,10 @@
+debug: true
+
+camel:
+  springboot:
+    main-run-controller: true
+    auto-configuration-enabled: true
+  servlet:
+    mapping:
+      context-path: /ws/*
+    name: CamelServlet
